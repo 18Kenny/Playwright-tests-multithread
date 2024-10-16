@@ -1,0 +1,9 @@
+oneShopUI/utils/LocatorSearcher.class
+oneShopUI/listeners/TestListener.class
+oneShopUI/utils/RetryTransformer.class
+oneShopUI/browsers/BrowserManager.class
+oneShopUI/browsers/YamlReader.class
+oneShopUI/utils/RetryAnalyzer.class
+oneShopUI/utils/LogManager.class
+oneShopUI/browsers/PropertiesReader.class
+oneShopUI/AllureConfigLoader.class

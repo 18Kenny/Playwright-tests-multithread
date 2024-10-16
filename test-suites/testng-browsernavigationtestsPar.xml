@@ -1,0 +1,31 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Suite" parallel="tests"  thread-count="4">
+    <test name="iPhone11-Chromium">
+        <parameter name="deviceName" value="iPhone11"/>
+        <parameter name="browser" value="chromium"/>
+        <classes>
+            <class name="oneShopUI.tests.BrowserNavigationTests"/>
+        </classes>
+    </test>
+    <test name="iPhone12-Chromium">
+        <parameter name="deviceName" value="iPhone12"/>
+        <parameter name="browser" value="chromium"/>
+        <classes>
+            <class name="oneShopUI.tests.BrowserNavigationTests"/>
+        </classes>
+    </test>
+    <test name="Pixel5-Chromium">
+        <parameter name="deviceName" value="Pixel5"/>
+        <parameter name="browser" value="chromium"/>
+        <classes>
+            <class name="oneShopUI.tests.BrowserNavigationTests"/>
+        </classes>
+    </test>
+    <test name="SamsungGalaxyS23Ultra-Chromium">
+        <parameter name="deviceName" value="SamsungGalaxyS23Ultra"/>
+        <parameter name="browser" value="chromium"/>
+        <classes>
+            <class name="oneShopUI.tests.BrowserNavigationTests"/>
+        </classes>
+    </test>
+</suite>

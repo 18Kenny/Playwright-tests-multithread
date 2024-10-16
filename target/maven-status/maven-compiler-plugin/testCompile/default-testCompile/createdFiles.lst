@@ -1,0 +1,6 @@
+oneShopUI/tests/BaseTest.class
+oneShopUI/pages/plh/SearchResultPage.class
+oneShopUI/pages/plh/HomePage.class
+oneShopUI/tests/BrowserNavigationTests.class
+oneShopUI/pages/plh/LoginPage.class
+oneShopUI/pages/plh/UserPage.class

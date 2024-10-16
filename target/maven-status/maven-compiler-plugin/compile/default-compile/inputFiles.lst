@@ -1,0 +1,9 @@
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/AllureConfigLoader.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/browsers/BrowserManager.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/browsers/PropertiesReader.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/browsers/YamlReader.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/listeners/TestListener.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/utils/LocatorSearcher.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/utils/LogManager.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/utils/RetryAnalyzer.java
+/Users/tim/IdeaProjects/OneShopUIPlaywright-java/src/main/java/oneShopUI/utils/RetryTransformer.java

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="TestSuite" time="13.063" tests="4" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="17"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-booter/3.3.0/surefire-booter-3.3.0.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-api/3.3.0/surefire-api-3.3.0.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-extensions-spi/3.3.0/surefire-extensions-spi-3.3.0.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-shared-utils/3.3.0/surefire-shared-utils-3.3.0.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-logger-api/3.3.0/surefire-logger-api-3.3.0.jar:/Users/tim/IdeaProjects/OneShopUIPlaywright-java/target/test-classes:/Users/tim/IdeaProjects/OneShopUIPlaywright-java/target/classes:/Users/tim/.m2/repository/com/microsoft/playwright/playwright/1.45.1/playwright-1.45.1.jar:/Users/tim/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/tim/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/tim/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/tim/.m2/repository/com/microsoft/playwright/driver/1.45.1/driver-1.45.1.jar:/Users/tim/.m2/repository/com/microsoft/playwright/driver-bundle/1.45.1/driver-bundle-1.45.1.jar:/Users/tim/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/tim/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tim/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/tim/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/tim/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/tim/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/Users/tim/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/Users/tim/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:/Users/tim/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/tim/.m2/repository/ch/qos/logback/logback-classic/1.5.2/logback-classic-1.5.2.jar:/Users/tim/.m2/repository/ch/qos/logback/logback-core/1.5.2/logback-core-1.5.2.jar:/Users/tim/.m2/repository/org/codehaus/mojo/exec-maven-plugin/3.4.1/exec-maven-plugin-3.4.1.jar:/Users/tim/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar:/Users/tim/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar:/Users/tim/.m2/repository/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar:/Users/tim/.m2/repository/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar:/Users/tim/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/tim/.m2/repository/org/ow2/asm/asm/9.7/asm-9.7.jar:/Users/tim/.m2/repository/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar:/Users/tim/.m2/repository/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar:/Users/tim/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/tim/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/tim/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/tim/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tim/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tim/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tim/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tim/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tim/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tim/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tim/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/tim/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/tim/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/tim/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/tim/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-testng/3.3.0/surefire-testng-3.3.0.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/common-java5/3.3.0/common-java5-3.3.0.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-testng-utils/3.3.0/surefire-testng-utils-3.3.0.jar:/Users/tim/.m2/repository/org/apache/maven/surefire/surefire-grouper/3.3.0/surefire-grouper-3.3.0.jar"/>
+    <property name="java.vm.vendor" value="Homebrew"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="GR"/>
+    <property name="sun.boot.library.path" value="/opt/homebrew/Cellar/openjdk@17/17.0.12/libexec/openjdk.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter /Users/tim/IdeaProjects/OneShopUIPlaywright-java/target/surefire 2024-10-11T10-56-15_854-jvmRun1 surefire-20241011105615951_1tmp surefire_0-20241011105615951_2tmp"/>
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/tim/IdeaProjects/OneShopUIPlaywright-java/target/test-classes:/Users/tim/IdeaProjects/OneShopUIPlaywright-java/target/classes:/Users/tim/.m2/repository/com/microsoft/playwright/playwright/1.45.1/playwright-1.45.1.jar:/Users/tim/.m2/repository/com/google/code/gson/gson/2.11.0/gson-2.11.0.jar:/Users/tim/.m2/repository/com/google/errorprone/error_prone_annotations/2.27.0/error_prone_annotations-2.27.0.jar:/Users/tim/.m2/repository/org/opentest4j/opentest4j/1.3.0/opentest4j-1.3.0.jar:/Users/tim/.m2/repository/com/microsoft/playwright/driver/1.45.1/driver-1.45.1.jar:/Users/tim/.m2/repository/com/microsoft/playwright/driver-bundle/1.45.1/driver-bundle-1.45.1.jar:/Users/tim/.m2/repository/org/testng/testng/7.10.2/testng-7.10.2.jar:/Users/tim/.m2/repository/com/beust/jcommander/1.82/jcommander-1.82.jar:/Users/tim/.m2/repository/org/webjars/jquery/3.7.1/jquery-3.7.1.jar:/Users/tim/.m2/repository/org/projectlombok/lombok/1.18.30/lombok-1.18.30.jar:/Users/tim/.m2/repository/org/yaml/snakeyaml/2.2/snakeyaml-2.2.jar:/Users/tim/.m2/repository/com/fasterxml/jackson/core/jackson-databind/2.16.1/jackson-databind-2.16.1.jar:/Users/tim/.m2/repository/com/fasterxml/jackson/core/jackson-annotations/2.16.1/jackson-annotations-2.16.1.jar:/Users/tim/.m2/repository/com/fasterxml/jackson/core/jackson-core/2.16.1/jackson-core-2.16.1.jar:/Users/tim/.m2/repository/org/slf4j/slf4j-api/2.0.9/slf4j-api-2.0.9.jar:/Users/tim/.m2/repository/ch/qos/logback/logback-classic/1.5.2/logback-classic-1.5.2.jar:/Users/tim/.m2/repository/ch/qos/logback/logback-core/1.5.2/logback-core-1.5.2.jar:/Users/tim/.m2/repository/org/codehaus/mojo/exec-maven-plugin/3.4.1/exec-maven-plugin-3.4.1.jar:/Users/tim/.m2/repository/org/apache/maven/resolver/maven-resolver-util/1.4.1/maven-resolver-util-1.4.1.jar:/Users/tim/.m2/repository/org/apache/maven/resolver/maven-resolver-api/1.4.1/maven-resolver-api-1.4.1.jar:/Users/tim/.m2/repository/org/codehaus/plexus/plexus-utils/4.0.1/plexus-utils-4.0.1.jar:/Users/tim/.m2/repository/org/codehaus/plexus/plexus-xml/3.0.1/plexus-xml-3.0.1.jar:/Users/tim/.m2/repository/org/apache/commons/commons-exec/1.4.0/commons-exec-1.4.0.jar:/Users/tim/.m2/repository/org/ow2/asm/asm/9.7/asm-9.7.jar:/Users/tim/.m2/repository/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar:/Users/tim/.m2/repository/org/ow2/asm/asm-tree/9.7/asm-tree-9.7.jar:/Users/tim/.m2/repository/io/rest-assured/rest-assured/5.4.0/rest-assured-5.4.0.jar:/Users/tim/.m2/repository/org/apache/groovy/groovy/4.0.16/groovy-4.0.16.jar:/Users/tim/.m2/repository/org/apache/groovy/groovy-xml/4.0.16/groovy-xml-4.0.16.jar:/Users/tim/.m2/repository/org/apache/httpcomponents/httpclient/4.5.13/httpclient-4.5.13.jar:/Users/tim/.m2/repository/org/apache/httpcomponents/httpcore/4.4.13/httpcore-4.4.13.jar:/Users/tim/.m2/repository/commons-logging/commons-logging/1.2/commons-logging-1.2.jar:/Users/tim/.m2/repository/commons-codec/commons-codec/1.11/commons-codec-1.11.jar:/Users/tim/.m2/repository/org/apache/httpcomponents/httpmime/4.5.13/httpmime-4.5.13.jar:/Users/tim/.m2/repository/org/hamcrest/hamcrest/2.2/hamcrest-2.2.jar:/Users/tim/.m2/repository/org/ccil/cowan/tagsoup/tagsoup/1.2.1/tagsoup-1.2.1.jar:/Users/tim/.m2/repository/io/rest-assured/json-path/5.4.0/json-path-5.4.0.jar:/Users/tim/.m2/repository/org/apache/groovy/groovy-json/4.0.16/groovy-json-4.0.16.jar:/Users/tim/.m2/repository/io/rest-assured/rest-assured-common/5.4.0/rest-assured-common-5.4.0.jar:/Users/tim/.m2/repository/io/rest-assured/xml-path/5.4.0/xml-path-5.4.0.jar:/Users/tim/.m2/repository/org/apache/commons/commons-lang3/3.11/commons-lang3-3.11.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-testng/2.20.1/allure-testng-2.20.1.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-java-commons/2.20.1/allure-java-commons-2.20.1.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-model/2.20.1/allure-model-2.20.1.jar:/Users/tim/.m2/repository/io/qameta/allure/allure-test-filter/2.20.1/allure-test-filter-2.20.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/tim"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-07-16"/>
+    <property name="java.home" value="/opt/homebrew/Cellar/openjdk@17/17.0.12/libexec/openjdk.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/tim/IdeaProjects/OneShopUIPlaywright-java"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.runtime.version" value="17.0.12+0"/>
+    <property name="user.name" value="tim"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="15.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="skipTest" value="true"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Homebrew"/>
+    <property name="localRepository" value="/Users/tim/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/Homebrew/homebrew-core/issues"/>
+    <property name="java.io.tmpdir" value="/var/folders/3h/9_j0qp4534s9pxbbvp8lm3b80000gn/T/"/>
+    <property name="java.version" value="17.0.12"/>
+    <property name="user.dir" value="/Users/tim/IdeaProjects/OneShopUIPlaywright-java"/>
+    <property name="os.arch" value="aarch64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="native.encoding" value="UTF-8"/>
+    <property name="java.library.path" value="/Users/tim/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Homebrew"/>
+    <property name="java.vm.version" value="17.0.12+0"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
+    <property name="java.class.version" value="61.0"/>
+  </properties>
+  <testcase name="testBrowserNavigation" classname="oneShopUI.tests.BrowserNavigationTests" time="2.127">
+    <system-out><![CDATA[10:56:16.327 [main] DEBUG org.testng.TestNG - suiteXmlPath: "/Users/tim/IdeaProjects/OneShopUIPlaywright-java/test-suites/testng.xml"
+10:56:16.533 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-plrb-test
+10:56:16.534 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-mk-test
+10:56:16.534 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-de-test
+10:56:16.534 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-plh-test
+10:56:16.534 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-cz-test
+10:56:16.534 [pool-2-thread-6] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-pl-test
+10:56:16.534 [pool-2-thread-7] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-sk-test
+10:56:16.534 [pool-2-thread-8] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: stagev3
+10:56:16.534 [pool-2-thread-9] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: stagev3-tdg
+10:56:16.535 [pool-2-thread-10] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: stagev2
+10:56:17.643 [pool-2-thread-7] DEBUG oneShopUI.browsers.PropertiesReader - Error: Received status code 404 for /eshopcdn/ONmYZUYiGdfBtYy4l1ejqUHZg2VwIpwN/sk/web-strings.json
+10:56:17.643 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Error: Received status code 404 for /eshopcdn/ONmYZUYiGdfBtYy4l1ejqUHZg2VwIpwN/plrb/web-strings.json
+10:56:17.643 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Error: Received status code 404 for /eshopcdn/ONmYZUYiGdfBtYy4l1ejqUHZg2VwIpwN/en_pl/web-strings.json
+10:56:17.643 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Error: Received status code 404 for /eshopcdn/ONmYZUYiGdfBtYy4l1ejqUHZg2VwIpwN/mk/web-strings.json
+10:56:17.644 [pool-2-thread-6] DEBUG oneShopUI.browsers.PropertiesReader - Error: Received status code 404 for /eshopcdn/ONmYZUYiGdfBtYy4l1ejqUHZg2VwIpwN/pl/web-strings.json
+10:56:17.644 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Error: Received status code 404 for /eshopcdn/ONmYZUYiGdfBtYy4l1ejqUHZg2VwIpwN/de/web-strings.json
+10:56:17.644 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Error: Received status code 404 for /eshopcdn/ONmYZUYiGdfBtYy4l1ejqUHZg2VwIpwN/cs/web-strings.json
+10:56:17.650 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Response body: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+10:56:17.650 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Response body: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+10:56:17.650 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Response body: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+10:56:17.650 [pool-2-thread-6] DEBUG oneShopUI.browsers.PropertiesReader - Response body: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+10:56:17.650 [pool-2-thread-7] DEBUG oneShopUI.browsers.PropertiesReader - Response body: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+10:56:17.650 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Response body: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+10:56:17.650 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Response body: <html>
+<head><title>404 Not Found</title></head>
+<body>
+<center><h1>404 Not Found</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+
+10:56:17.651 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Error processing key: prod-de-test
+10:56:17.651 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Error processing key: prod-cz-test
+10:56:17.651 [pool-2-thread-6] DEBUG oneShopUI.browsers.PropertiesReader - Error processing key: prod-pl-test
+10:56:17.651 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Error processing key: prod-mk-test
+10:56:17.651 [pool-2-thread-7] DEBUG oneShopUI.browsers.PropertiesReader - Error processing key: prod-sk-test
+10:56:17.651 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Error processing key: prod-plrb-test
+10:56:17.651 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Error processing key: prod-plh-test
+10:56:17.652 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: stage
+10:56:17.652 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: b2b-stage
+10:56:17.652 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: b2b-stagev3
+10:56:17.652 [pool-2-thread-7] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: stagev4
+10:56:17.653 [pool-2-thread-6] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: stagev5
+10:56:17.653 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: dev
+10:56:17.653 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: dev2
+10:56:17.831 [pool-2-thread-8] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: preprod-cz
+10:56:17.832 [pool-2-thread-10] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: preprod-hr
+10:56:17.832 [pool-2-thread-9] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: preprod-plh
+10:56:18.032 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: preprod-pl
+10:56:18.032 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: preprod-plrb
+10:56:18.048 [pool-2-thread-7] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: preprod-sk
+10:56:18.048 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: preprod-mk
+10:56:18.051 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-cz
+10:56:18.053 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-plh
+10:56:18.055 [pool-2-thread-6] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: b2b_prod-plh
+10:56:18.236 [pool-2-thread-10] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-pl
+10:56:18.270 [pool-2-thread-9] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-plrb
+10:56:18.285 [pool-2-thread-8] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-sk
+10:56:18.406 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: b2b_prod-cz
+10:56:18.408 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: b2b_prod-sk
+10:56:18.428 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-sk-v2
+10:56:18.433 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-mk
+10:56:18.433 [pool-2-thread-6] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-hr
+10:56:18.443 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-de
+10:56:18.565 [pool-2-thread-10] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat-cz
+10:56:18.627 [pool-2-thread-9] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat-pl
+10:56:18.643 [pool-2-thread-8] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat-sk
+10:56:18.776 [pool-2-thread-1] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat-plh
+10:56:18.779 [pool-2-thread-2] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat-mk
+10:56:18.794 [pool-2-thread-5] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat2-sk
+10:56:18.796 [pool-2-thread-3] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat2-cz
+10:56:18.831 [pool-2-thread-4] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat2-mk
+10:56:18.833 [pool-2-thread-7] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat-de
+10:56:18.988 [pool-2-thread-8] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: prod-de-seo
+10:56:18.988 [pool-2-thread-10] DEBUG oneShopUI.browsers.PropertiesReader - Fetching translations for key: uat2-de
+10:56:19.369 [main] DEBUG oneShopUI.browsers.PropertiesReader - Translations already set, skipping setMapOfTranslation.
+10:56:19.414 [main] DEBUG oneShopUI.browsers.PropertiesReader - Translations already set, skipping setMapOfTranslation.
+10:56:19.421 [main] DEBUG oneShopUI.browsers.PropertiesReader - Translations already set, skipping setMapOfTranslation.
+10:56:19.434 [main] DEBUG oneShopUI.browsers.PropertiesReader - Translations already set, skipping setMapOfTranslation.
+10:56:19.441 [main] DEBUG oneShopUI.browsers.PropertiesReader - Translations already set, skipping setMapOfTranslation.
+10:56:19.454 [main] DEBUG oneShopUI.browsers.PropertiesReader - Translations already set, skipping setMapOfTranslation.
+10:56:19.460 [main] DEBUG oneShopUI.browsers.PropertiesReader - Translations already set, skipping setMapOfTranslation.
+10:56:24.362 [TestNG-tests-1] ERROR io.qameta.allure.AllureLifecycle - Could not update test fixture: test fixture with uuid e3169e61-b4d7-4e5d-9e36-c4eb299e43de not found
+10:56:24.362 [TestNG-tests-1] ERROR io.qameta.allure.AllureLifecycle - Could not stop test fixture: test fixture with uuid e3169e61-b4d7-4e5d-9e36-c4eb299e43de not found
+10:56:24.362 [TestNG-tests-2] ERROR io.qameta.allure.AllureLifecycle - Could not update test fixture: test fixture with uuid 0e85ef5e-96a2-4d3f-8eda-e58307c41d4e not found
+10:56:24.375 [TestNG-tests-2] ERROR io.qameta.allure.AllureLifecycle - Could not stop test fixture: test fixture with uuid 0e85ef5e-96a2-4d3f-8eda-e58307c41d4e not found
+10:56:24.386 [TestNG-tests-4] ERROR io.qameta.allure.AllureLifecycle - Could not update test fixture: test fixture with uuid 0e40e84d-9e71-403a-8ed9-a81be506c79c not found
+10:56:24.386 [TestNG-tests-4] ERROR io.qameta.allure.AllureLifecycle - Could not stop test fixture: test fixture with uuid 0e40e84d-9e71-403a-8ed9-a81be506c79c not found
+10:56:24.387 [TestNG-tests-3] ERROR io.qameta.allure.AllureLifecycle - Could not update test fixture: test fixture with uuid a4dca26f-8375-44c3-9db2-b42c84f3f0b8 not found
+10:56:24.387 [TestNG-tests-3] ERROR io.qameta.allure.AllureLifecycle - Could not stop test fixture: test fixture with uuid a4dca26f-8375-44c3-9db2-b42c84f3f0b8 not found
+]]></system-out>
+    <system-err><![CDATA[java.lang.RuntimeException: Failed to fetch translations: status code 404
+	at oneShopUI.browsers.PropertiesReader.setTranslationJsonMap(PropertiesReader.java:144)
+	at oneShopUI.browsers.PropertiesReader.lambda$setMapOfTranslation$0(PropertiesReader.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.lang.RuntimeException: Failed to fetch translations: status code 404
+	at oneShopUI.browsers.PropertiesReader.setTranslationJsonMap(PropertiesReader.java:144)
+	at oneShopUI.browsers.PropertiesReader.lambda$setMapOfTranslation$0(PropertiesReader.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.lang.RuntimeException: Failed to fetch translations: status code 404
+	at oneShopUI.browsers.PropertiesReader.setTranslationJsonMap(PropertiesReader.java:144)
+	at oneShopUI.browsers.PropertiesReader.lambda$setMapOfTranslation$0(PropertiesReader.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.lang.RuntimeException: Failed to fetch translations: status code 404
+	at oneShopUI.browsers.PropertiesReader.setTranslationJsonMap(PropertiesReader.java:144)
+	at oneShopUI.browsers.PropertiesReader.lambda$setMapOfTranslation$0(PropertiesReader.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.lang.RuntimeException: Failed to fetch translations: status code 404
+	at oneShopUI.browsers.PropertiesReader.setTranslationJsonMap(PropertiesReader.java:144)
+	at oneShopUI.browsers.PropertiesReader.lambda$setMapOfTranslation$0(PropertiesReader.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.lang.RuntimeException: Failed to fetch translations: status code 404
+	at oneShopUI.browsers.PropertiesReader.setTranslationJsonMap(PropertiesReader.java:144)
+	at oneShopUI.browsers.PropertiesReader.lambda$setMapOfTranslation$0(PropertiesReader.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+java.lang.RuntimeException: Failed to fetch translations: status code 404
+	at oneShopUI.browsers.PropertiesReader.setTranslationJsonMap(PropertiesReader.java:144)
+	at oneShopUI.browsers.PropertiesReader.lambda$setMapOfTranslation$0(PropertiesReader.java:165)
+	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+]]></system-err>
+  </testcase>
+  <testcase name="testBrowserNavigation" classname="oneShopUI.tests.BrowserNavigationTests" time="2.132"/>
+  <testcase name="testBrowserNavigation" classname="oneShopUI.tests.BrowserNavigationTests" time="3.987">
+    <system-out><![CDATA[10:56:27.310 [TestNG-tests-1] ERROR io.qameta.allure.AllureLifecycle - Could not update test fixture: test fixture with uuid 50bae5d2-380d-4c85-94e8-9a312288214a not found
+10:56:27.310 [TestNG-tests-1] ERROR io.qameta.allure.AllureLifecycle - Could not stop test fixture: test fixture with uuid 50bae5d2-380d-4c85-94e8-9a312288214a not found
+10:56:27.309 [TestNG-tests-4] ERROR io.qameta.allure.AllureLifecycle - Could not update test fixture: test fixture with uuid 11785bd2-e09a-4dc5-815b-e4042f234b0a not found
+10:56:27.310 [TestNG-tests-4] ERROR io.qameta.allure.AllureLifecycle - Could not stop test fixture: test fixture with uuid 11785bd2-e09a-4dc5-815b-e4042f234b0a not found
+]]></system-out>
+  </testcase>
+  <testcase name="testBrowserNavigation" classname="oneShopUI.tests.BrowserNavigationTests" time="4.623">
+    <system-out><![CDATA[10:56:28.676 [TestNG-tests-3] ERROR io.qameta.allure.AllureLifecycle - Could not update test fixture: test fixture with uuid 2f38b3e5-d790-48d3-8fb5-75c1d8cb2eab not found
+10:56:28.677 [TestNG-tests-3] ERROR io.qameta.allure.AllureLifecycle - Could not stop test fixture: test fixture with uuid 2f38b3e5-d790-48d3-8fb5-75c1d8cb2eab not found
+]]></system-out>
+  </testcase>
+</testsuite>

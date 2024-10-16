@@ -1,0 +1,4 @@
+test:
+  url: "WEBPAJEFORTEST.COM"
+  username: "USERNAME"
+  password: "PWD"
